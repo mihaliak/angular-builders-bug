@@ -1,0 +1,10 @@
+@tailwind preflight;
+@tailwind components;
+
+.custom-tailwind-component {
+    background: config('colors.orange');
+    color: config('colors.white');
+    padding: config('padding.4');
+}
+
+@tailwind utilities;
